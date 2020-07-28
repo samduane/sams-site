@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sam&#39;s Sites</title>
-    <link>https:///samduane.com/</link>
+    <link>/</link>
     <description>Recent content on Sam&#39;s Sites</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
     <lastBuildDate>Tue, 28 Jul 2020 02:08:17 -0400</lastBuildDate>
     
-	<atom:link href="https:///samduane.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>This Site</title>
-      <link>https:///samduane.com/projects/this-site/</link>
+      <link>/projects/this-site/</link>
       <pubDate>Tue, 28 Jul 2020 02:08:17 -0400</pubDate>
       
-      <guid>https:///samduane.com/projects/this-site/</guid>
+      <guid>/projects/this-site/</guid>
       <description>Interested in owning a professionally built website like this one? Responsive, reliable, and easy to use? Look no further! Whether you&amp;rsquo;re looking for a personal portfolio, a blog, or a website for a small business, my expertise in creating custom tailored online experiences will ensure your customers enjoy the highest quality interactions. Guaranteed to boost customer satisfaction and sales. If you want to take your business to the next level, contact me at the link below!</description>
     </item>
     

@@ -3,32 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https:///samduane.com/</loc>
+    <loc>/</loc>
     <lastmod>2020-07-28T02:08:17-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https:///samduane.com/tags/example/</loc>
+    <loc>/tags/example/</loc>
     <lastmod>2020-07-28T02:08:17-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https:///samduane.com/projects/</loc>
+    <loc>/projects/</loc>
     <lastmod>2020-07-28T02:08:17-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https:///samduane.com/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2020-07-28T02:08:17-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https:///samduane.com/projects/this-site/</loc>
+    <loc>/projects/this-site/</loc>
     <lastmod>2020-07-28T02:08:17-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https:///samduane.com/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
 </urlset>

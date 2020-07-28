@@ -4,7 +4,7 @@ theme = "hugo-theme-codex"
 # Override these settings with your own
 title = "Sam's Sites"
 languageCode = "en-us"
-baseURL = "https:/samduane.com/"
+baseURL = ""
 copyright = "© {year}"
 
 # Add your Disqus shortname here.
