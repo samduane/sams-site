@@ -4,14 +4,31 @@
   
   <url>
     <loc>https:///samduane.com/</loc>
+    <lastmod>2020-07-28T02:08:17-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https:///samduane.com/categories/</loc>
+    <loc>https:///samduane.com/tags/example/</loc>
+    <lastmod>2020-07-28T02:08:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https:///samduane.com/projects/</loc>
+    <lastmod>2020-07-28T02:08:17-04:00</lastmod>
   </url>
   
   <url>
     <loc>https:///samduane.com/tags/</loc>
+    <lastmod>2020-07-28T02:08:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https:///samduane.com/projects/this-site/</loc>
+    <lastmod>2020-07-28T02:08:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https:///samduane.com/categories/</loc>
   </url>
   
 </urlset>
