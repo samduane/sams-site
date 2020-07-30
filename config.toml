@@ -50,7 +50,7 @@ copyright = "© {year}"
   url = "/projects"
 
 [[menu.main]]
-  identifier = "main"
-  name = "main"
-  title = "Main"
+  identifier = "home"
+  name = "home"
+  title = "Home"
   url = "/"
