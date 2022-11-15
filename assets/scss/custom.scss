@@ -1,0 +1,15 @@
+@import "overrides";
+.tag__link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.2em 0.4em;
+  border-radius: 15px;
+  background-color: $white;
+  color: $primary;
+  font-size: 0.8rem;
+
+  &:hover {
+    background-color: $white;
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,1 @@
+.tag__link{display:inline-block;text-decoration:none;padding:.2em .4em;border-radius:15px;background-color:#222;color:#cea46f;font-size:.8rem}.tag__link:hover{background-color:#222;text-decoration:underline}
