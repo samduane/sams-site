@@ -1,10 +1,9 @@
+@import "../../themes/hugo-theme-codex/assets/scss/partials/_vars";
 @import "overrides";
-// too lazy to import
-$grey: #9b9b9b;
 .nav__list a {
     &:hover {
         text-decoration: underline;
-        color: $grey;
+        color: $darkGrey;
     }
     &.active {
         color: $primary;
@@ -24,6 +23,7 @@ $grey: #9b9b9b;
 
   &:hover {
     background-color: $white;
+    color: $darkGrey;
     text-decoration: underline;
   }
 }
