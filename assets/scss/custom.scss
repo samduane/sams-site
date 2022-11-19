@@ -30,3 +30,12 @@ $grey: #9b9b9b;
 .tag__header {
     color: $primary;
 }
+#TableOfContents {
+  a {
+    color: $grey;
+  }
+
+  a.active {
+    color: $primary;
+  }
+}
