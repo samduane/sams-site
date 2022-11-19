@@ -1,15 +1,32 @@
 @import "overrides";
+// too lazy to import
+$grey: #9b9b9b;
+.nav__list a {
+    &:hover {
+        text-decoration: underline;
+        color: $grey;
+    }
+    &.active {
+        color: $primary;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
 .tag__link {
   display: inline-block;
   text-decoration: none;
   padding: 0.2em 0.4em;
   border-radius: 15px;
   background-color: $white;
-  color: $primary;
+  color: $grey;
   font-size: 0.8rem;
 
   &:hover {
     background-color: $white;
     text-decoration: underline;
   }
+}
+.tag__header {
+    color: $primary;
 }
