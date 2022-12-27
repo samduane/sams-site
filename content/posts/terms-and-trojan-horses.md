@@ -5,7 +5,7 @@ summary = """
   While most Christians understand the value of taming the tongue, the importance of choosing our words carefully has been
   grossly overlooked, allowing postmodernist rhetoric to infiltrate the Body.
   """
-lastmod = 2022-12-26T19:39:24-05:00
+lastmod = 2022-12-26T19:43:38-05:00
 draft = false
 +++
 
@@ -48,7 +48,7 @@ the world, from life into death.
 
 ### Christian influencers {#christian-influencers}
 
-To give an example, let's look at the aformentioned phrase, "influencer of Christ". On its face,
+To give an example, let's look at the aforementioned phrase, "influencer of Christ". On its face,
 it seems entirely fine. What's there to worry about? Somebody is trying to influence the world for Christ. Isn't that...
 good? Well yes, but not according to the ideological assumptions that the term "influencer" implies. When we look at the
 original use of this phrase, we see that it is orginally intended, and continues to be used, to describe people with
