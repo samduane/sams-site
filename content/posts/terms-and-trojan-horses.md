@@ -5,7 +5,7 @@ summary = """
   While most Christians understand the value of taming the tongue, the importance of choosing our words carefully has been
   grossly overlooked, allowing postmodernist rhetoric to infiltrate the Body.
   """
-lastmod = 2022-12-26T19:11:28-05:00
+lastmod = 2022-12-26T19:39:24-05:00
 draft = false
 +++
 
@@ -17,6 +17,9 @@ which things we also speak, not in words taught by human wisdom, but in those ta
 **1 Corinthians 2:11-13**<br />
 </div>
 
+
+## Controlling your tongue {#controlling-your-tongue}
+
 When we think of the value in seasoning our words with light, our first thought is the removal of profanity. While
 this is a good start for the Christian in their infancy, most believers never grow beyond this rudimentary stage. We
 never consider the value of the terminology used in our day to day lives. As the church continues to adopt worldly
@@ -26,6 +29,9 @@ Such phrases as "empowered by the Spirit" and "influencer for Christ" appear har
 these phrases are further investigated, it becomes clear these are far more dangerous than their initial impression
 implies. Like a trojan horse, these words act as gift wrapped traps designed to sneak enemy idealogies into the minds of
 God's people. To better understand what's going on, we need to first understand the role of language.
+
+
+## Language and Ideology {#language-and-ideology}
 
 Language is at its core, a method of communicating ideas. Words have particular meanings, ideas with certain
 associations to the world. We combine these words to compose new ideas that elaborate on old ones. On its own, language
@@ -39,6 +45,9 @@ Even though the church does not agree with these idealogies, adopting this langu
 it is not intentional. This has lead to the perversion of the church, guiding Christ's followers away into the arms of
 the world, from life into death.
 
+
+### Christian influencers {#christian-influencers}
+
 To give an example, let's look at the aformentioned phrase, "influencer of Christ". On its face,
 it seems entirely fine. What's there to worry about? Somebody is trying to influence the world for Christ. Isn't that...
 good? Well yes, but not according to the ideological assumptions that the term "influencer" implies. When we look at the
@@ -46,6 +55,9 @@ original use of this phrase, we see that it is orginally intended, and continues
 large followings, power, and money. Successful in the eyes of the world, these "influencers" are called to a higher
 expectation of how they live. This itself isn't wrong, but it doesn't capture the full picture of how Christ calls us to
 live.
+
+
+#### The kernel of truth {#the-kernel-of-truth}
 
 As with any good lie, the idea of an "influencer" is based on a kernel of truth. In Matthew 25, Jesus tells the
 parable of the talents. That each servant is expected to make good with what he has been given, and to return more than
@@ -55,6 +67,9 @@ this sense the term "influencer" appears reasonable. However, there are two prob
 God in His Word has already provided the words needed to communicate this truth. In this case, we can point to the
 parable of the talents rather than using the term "influencer". Secondly, adopting this term has unintended
 consequences.
+
+
+#### The lies {#the-lies}
 
 While "influencer" portrays the importance of serving Christ with all that we have been given, there are additional
 assumptions that are not founded in Scripture. For one, it puts the emphasis on worldly success rather than spiritual
@@ -74,6 +89,9 @@ teaching them to observe all that I commanded you; and lo, I am with you always,
 
 **Matthew 28:18-20**<br />
 </div>
+
+
+## Conclusion {#conclusion}
 
 The words we use are important. Language is a powerful tool to describe the world and our own minds. This
 relationship goes two ways, and can change the way we think and view the world. With this power we must be wise and discerning to
