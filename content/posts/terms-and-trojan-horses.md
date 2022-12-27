@@ -1,11 +1,11 @@
 +++
-title = "Terminology and Trojan Horses"
+title = "Terminology and Trojan Horses :discernment:church-culture:"
 author = ["Sam Duane"]
 summary = """
   While most Christians understand the value of taming the tongue, the importance of choosing our words carefully has been
   grossly overlooked, allowing postmodernist rhetoric to infiltrate the Body.
   """
-lastmod = 2022-12-26T19:43:38-05:00
+lastmod = 2022-12-26T20:11:33-05:00
 draft = false
 +++
 
