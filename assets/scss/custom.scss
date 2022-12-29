@@ -1,17 +1,6 @@
 @import "../../themes/hugo-theme-codex/assets/scss/partials/_vars";
 @import "overrides";
-.nav__list a {
-    &:hover {
-        text-decoration: underline;
-        color: $darkGrey;
-    }
-    &.active {
-        color: $primary;
-        &:hover {
-            text-decoration: none;
-        }
-    }
-}
+
 .tag__link {
   display: inline-block;
   text-decoration: none;

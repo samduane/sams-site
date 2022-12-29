@@ -1,3 +1,7 @@
+/*Container for burger menu and navigation
+ *@media query adjusts to side menu for large displays
+ *Must have z-index: 2, or headers will display through menu
+ **/
 .burger__container {
   height: $burgerContainerHeight;
   display: flex;
@@ -7,6 +11,7 @@
   width: 100%;
   background: $white;
   z-index: 2;
+
   @media screen and (min-width: $medium) {
     display: block;
     height: 100%;
@@ -21,11 +26,16 @@
   width: $meatWidth;
   height: $meatWidth;
   cursor: pointer;
+
   @media screen and (min-width: $medium) {
     display: none;
   }
 }
 
+/*Actual burger button
+ *Base class is the container
+ *Numbered classes(.burger__meat--N) for each bar of menu
+ **/
 .burger__meat {
   position: absolute;
   width: $meatWidth;
@@ -48,6 +58,14 @@
   transform: translateY(10px);
 }
 
+/*Checkbox and form used for burger button
+ *Must have z-index: 1, or will disappear
+ **/
+#burger + label {
+  z-index: 1;
+}
+
+/*Animation for opening and closing menu*/
 #burger:checked + label {
 
   .burger__meat--1 {
@@ -62,3 +80,4 @@
   transform: rotate(-45deg);
   }
 }
+
