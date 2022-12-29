@@ -1,6 +1,9 @@
 @import "../../themes/hugo-theme-codex/assets/scss/partials/_vars";
 @import "overrides";
 
+:root {
+  font-family: serif;
+}
 .tag__link {
   display: inline-block;
   text-decoration: none;
