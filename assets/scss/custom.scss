@@ -16,7 +16,6 @@
   display: inline-block;
   text-decoration: none;
   padding: 0.2em 0.4em;
-  border-radius: 15px;
   background-color: $white;
   color: $grey;
   font-size: 0.8rem;
@@ -58,4 +57,16 @@ p {
 }
 .intro-phrase {
   font-weight: 300;
+}
+div ul li div {
+  background: #333;
+  border-radius: 5px;
+  padding: 30px;
+  margin: 10px;
+  .tag__link {
+    background: #333;
+  }
+}
+.post__title {
+  font-weight: 700;
 }
