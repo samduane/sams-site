@@ -5,8 +5,8 @@ summary = """
   While most Christians understand the value of taming the tongue, the importance of choosing our words carefully has been
   grossly overlooked, allowing postmodernist rhetoric to infiltrate the Body.
   """
-lastmod = 2022-12-26T21:18:11-05:00
-tags = ["discernment", "church-culture"]
+lastmod = 2023-01-05T22:33:07-05:00
+tags = ["christianity"]
 draft = false
 +++
 
@@ -16,6 +16,7 @@ Now we have received, not the spirit of the world, but the Spirit who is from Go
 which things we also speak, not in words taught by human wisdom, but in those taught by the Spirit, combining spiritual thoughts with spiritual words."<br />
 
 **1 Corinthians 2:11-13**<br />
+
 </div>
 
 
@@ -89,6 +90,7 @@ Go therefore and make disciples of all the nations, baptizing them in the name o
 teaching them to observe all that I commanded you; and lo, I am with you always, even to the end of the age.”<br />
 
 **Matthew 28:18-20**<br />
+
 </div>
 
 

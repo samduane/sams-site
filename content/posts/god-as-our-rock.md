@@ -1,7 +1,13 @@
 +++
 title = "God as our Rock"
 author = ["Sam Duane"]
-lastmod = 2023-01-05T22:17:34-05:00
+summary = """
+  As followers of Christ, we call ourselves Christians. Sadly, that title has become a broad definition with little
+  meaning. In order to restore the value of the term Christian, we as the church need to re-evaluate our convictions in
+  light of the Truth that is God's Word.
+  """
+lastmod = 2023-01-05T22:33:12-05:00
+tags = ["christianity"]
 draft = false
 +++
 
@@ -10,7 +16,6 @@ draft = false
 my mighty rock, my refuge is God."<br />
 
 **Psalm 62:7**<br />
-
 </div>
 
 
