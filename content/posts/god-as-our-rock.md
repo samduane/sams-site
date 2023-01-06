@@ -78,7 +78,7 @@ routines. Spreading the good news becomes a numbers game. The church is no
 longer a community, but a business.
 
 
-### Leaning on our own understanding {#leaning-on-our-own-understanding}
+### Leaning on _our_ own understanding {#leaning-on-our-own-understanding}
 
 &emsp; And others see the problem, but rather than turn to God they turn to their
 own explanations. Men bestowed with the gift of teaching are raised on pillars
