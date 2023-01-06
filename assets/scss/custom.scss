@@ -12,11 +12,6 @@
   color: $grey;
   font-size: 0.8rem;
 
-  &:hover {
-    background-color: $white;
-    color: $darkGrey;
-    text-decoration: underline;
-  }
 }
 .tag__header {
     color: $primary;
@@ -29,11 +24,6 @@
   a.active {
     color: $primary;
   }
-}
-.pagination__item:hover {
-    text-decoration: underline;
-    background-color: $white;
-    color: $primary;
 }
 
 .verse {
