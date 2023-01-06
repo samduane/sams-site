@@ -6,9 +6,9 @@ summary = """
   part of our lives. The backbone of the world wide web that keeps everything running is... Javascript. One of - if not
   **the** - worst languages to be used in production systems. Why?
   """
-lastmod = 2023-01-06T01:28:28-05:00
-tags = ["programming", "web-dev"]
-draft = true
+lastmod = 2023-01-06T01:36:07-05:00
+tags = ["programming"]
+draft = false
 +++
 
 &emsp; I could start by trashing on JS. I could go on about all of its obvious mistakes, inexplicable oddities, and
