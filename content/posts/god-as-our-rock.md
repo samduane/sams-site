@@ -2,7 +2,7 @@
 title = "God as our Rock"
 author = ["Sam Duane"]
 lastmod = 2023-01-05T22:17:34-05:00
-draft = true
+draft = false
 +++
 
 <div class="verse">
