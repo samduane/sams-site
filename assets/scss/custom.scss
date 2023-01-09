@@ -33,9 +33,11 @@
   }
 }
 .pagination__item:hover {
-    color: $primary;
+  @media screen and (min-width: $medium) {
     background-color: #222;
     transition: 250ms all ease-in-out;
+  }
+
     .pagination__label {
     text-decoration: underline;
     }
@@ -144,6 +146,7 @@ div ul li div {
   border-radius: 5px;
   border-left: 2px solid $primary;
   box-shadow: 0px 0px 50px 0px #000;
+  padding-bottom: 1em;
   background: #222;
 }
 .flex-wrapper {
