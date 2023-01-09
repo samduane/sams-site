@@ -115,7 +115,7 @@ div ul li div {
     color: #000;
     box-shadow: 0px 0px 20px 0px #111;
     &::before {
-     content: "#"
+      content: "#";
     }
     &:hover {
     text-decoration: underline;
@@ -139,4 +139,20 @@ div ul li div {
   border-left: 2px solid $primary;
   box-shadow: 0px 0px 50px 0px #000;
   background: #222;
+}
+
+@keyframes fancy {
+  0% {content: ".";}
+  20% {content: "..";}
+  40% {content: "...";}
+  60% {content: "!..";}
+  80% {content: "!!.";}
+  100% {content: "!!!";}
+}
+
+.fancy::after {
+  animation-name: fancy;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
 }
