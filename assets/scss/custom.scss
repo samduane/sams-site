@@ -106,8 +106,8 @@ div ul li div {
     #post__title {
   @media screen and (max-width: $medium - 1) {
     margin-left: -.5em;
-    font-size: 1.65em;
-  }
+    font-size: 1.75em;
+      }
     }
   }
   .tags__list .tag__item .tag__link {
@@ -133,7 +133,10 @@ div ul li div {
   }
   .post__content {
     margin-top: -2.5em;
-  padding: 2em;
+    padding: 1em 1em 1em 1.25em;
+    @media screen and (min-width: $medium) {
+    padding: 2em;
+    }
 }
 }
 
