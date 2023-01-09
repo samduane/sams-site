@@ -12,15 +12,6 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <!-- Twitter -->
-  {{ if isset .Site.Params "twitter" }}
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="{{ .Title }}" />
-  <meta name="twitter:description" content="{{ if .IsHome }}{{ htmlEscape .Site.Params.description }}{{ else }}{{ htmlEscape .Description }}{{ end }}"/>
-  <meta name="twitter:site" content="{{ .Site.Params.twitterSite | default .Site.Params.twitter }}" />
-  <meta name="twitter:creator" content="{{ .Site.Params.twitterCreator | default .Site.Params.twitter }}" />
-  {{ end }}
-
   {{ partial "favicon.html" }}
 
   <!-- Styles -->
@@ -41,9 +32,6 @@
   {{ block "links" . }} {{ end }}
   {{ partial "seo-schema.html" .}}
 
-  {{- if not .Site.IsServer -}}
-      {{ template "_internal/google_analytics_async.html" . }}
-  {{- end -}}
 </head>
 
 <body>
