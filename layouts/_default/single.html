@@ -8,6 +8,7 @@
     <div class="flex-wrapper">
       <div class="post__container">
         <div class="post">
+          <div class="post__main">
           <header class="post__header">
             <h1 id="post__title">{{.Title}}</h1>
             {{ if .Date }}<time datetime="{{ .Date }}" class="post__date">{{ .Date.Format $dateFormat }}</time> {{ end }}
@@ -18,6 +19,7 @@
                   {{ partial "math.html" . }}
               {{ end }}
           </article>
+          </div>
           {{ partial "tags.html" .}} {{ partial "post-pagination.html" .}}
           <footer class="post__footer">
             {{ partial "social-icons.html" .}}
