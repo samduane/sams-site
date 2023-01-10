@@ -81,3 +81,10 @@
   }
 }
 
+#burger__header {
+  z-index: 2;
+  margin-left: auto;
+  @media screen and (min-width: $medium) {
+  display:none;
+  }
+}
