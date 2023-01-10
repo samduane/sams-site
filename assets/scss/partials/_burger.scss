@@ -84,6 +84,7 @@
 #burger__header {
   z-index: 2;
   margin-left: auto;
+  color: $grey;
   @media screen and (min-width: $medium) {
   display:none;
   }
