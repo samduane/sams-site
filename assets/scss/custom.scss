@@ -175,15 +175,18 @@ div ul li div {
 }
 
 main {
-  padding: 3rem 1.5rem 1rem;
+  padding: 2.5rem 1rem 0rem;
 
   @media screen and (min-width: $medium) {
     padding-left: calc(1.5rem + #{$navWidth});
   }
 
   @media screen and (max-width: $medium - 1) {
-    padding-top: calc(3rem + #{$burgerContainerHeight});
     padding-right: .75rem;
     padding-left: .75rem;
   }
+}
+
+.post-list__container .post-list .post:last-child {
+    padding-bottom: 2em;
 }
