@@ -33,6 +33,7 @@
   }
 }
 .pagination__item:hover {
+  background: #222;
   @media screen and (min-width: $medium) {
     background-color: #222;
     transition: 250ms all ease-in-out;
