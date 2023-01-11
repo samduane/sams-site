@@ -91,6 +91,7 @@
 /*Uses checkbox status for activation rather than JS. Yay!
  *This is the actual menu presented on clicking
  *@media query to adjust width when in side menu on larger displays
+ *animation-fill forwards needed for proper fade. Otherwise, does reverse fade first.
  */
 #burger:checked ~ .nav {
   height: 100%;
