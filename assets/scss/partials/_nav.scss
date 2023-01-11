@@ -2,6 +2,7 @@
 
 /*Navigation container that holds everything else
  *Defaults to hamburger menu, @media query for persistent side menu on bigger displays
+ *Webkit necessary for Safari. Apple!!!
  */
 .nav {
   position: fixed;
