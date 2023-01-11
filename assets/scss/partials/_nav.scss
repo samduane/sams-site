@@ -95,7 +95,7 @@
 #burger:checked ~ .nav {
   height: 100%;
   animation: fade__bg;
-  animation-duration: 200ms;
+  animation-duration: 300ms;
   animation-fill-mode: forwards;
 
   .nav__list {
