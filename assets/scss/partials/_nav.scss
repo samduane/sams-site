@@ -94,7 +94,9 @@
  */
 #burger:checked ~ .nav {
   height: 100%;
-  transition: all 400ms ease-in;
+  animation: fade__bg;
+  animation-duration: 200ms;
+  animation-fill-mode: forwards;
 
   .nav__list {
     display: block;
@@ -104,4 +106,9 @@
     width: $navWidth;
     transition: none;
   }
+}
+
+@keyframes fade__bg {
+  from {background: transparent;}
+  to {background: rgba(17,17,17,0.7);}
 }
