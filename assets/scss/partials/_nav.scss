@@ -6,7 +6,7 @@
  */
 .nav {
   position: fixed;
-  background: transparent;
+  background:  transparent;
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
   bottom: 0;
@@ -14,6 +14,7 @@
   width: 100%;
   height: $burgerContainerHeight;
   overflow: hidden;
+  margin: -1px;
 
   @media screen and (min-width: $medium) {
     background: $white;
@@ -97,10 +98,13 @@
 #burger:checked ~ .nav {
   height: 100%;
   animation: fade__bg;
-  animation-duration: 300ms;
+  animation-duration: 700ms;
   animation-fill-mode: forwards;
+  margin-bottom: 0;
   .nav__list {
     display: block;
+    animation: fade__list;
+    animation-duration: 500ms;
   }
 
   @media screen and (min-width: $medium) {
@@ -112,4 +116,9 @@
 @keyframes fade__bg {
   from {background: transparent;}
   to {background: rgba(17,17,17,0.7);}
+}
+
+@keyframes fade__list {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
