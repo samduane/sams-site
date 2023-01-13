@@ -37,5 +37,11 @@ baseURL = "https://samduane.com/"
   title = "Posts"
   url = "/posts"
 
+[[menu.main]]
+  identifier = "photos"
+  name = "photos"
+  title = "Photos"
+  url = "https://photos.samduane.com"
+
 [markup.goldmark.renderer]
   unsafe = true
