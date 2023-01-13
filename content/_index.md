@@ -1,5 +1,5 @@
 ---
 heading: "Hey, I'm Sam"
-handle: "Local of Plymouth, MA. Landscaper. Tech enthusiast."
+handle: "Teacher | Designer | Photographer | Programmer "
 subheading: "Follower of Christ. Contender of the Faith."
 ---
