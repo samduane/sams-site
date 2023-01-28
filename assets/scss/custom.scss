@@ -8,20 +8,18 @@
   display: inline-block;
   text-decoration: none;
   padding: 0.2em 0.4em;
-  background: #222;
   margin-bottom: .5em;
   color: $grey;
   font-size: 0.8rem;
-  border-radius: 5px;
-  border-left: 2px solid $primary;
   &:hover {
-    color: $black;
-    background: #222;
     text-decoration: underline;
   }
 }
 .tag__header {
-    color: $primary;
+padding-left: 0.5em;
+.tag__term {
+font-weight: 400;
+}
 }
 #TableOfContents {
   a {
@@ -33,9 +31,8 @@
   }
 }
 .pagination__item:hover {
-  background: #222;
+  background: $white;
   @media screen and (min-width: $medium) {
-    background-color: #222;
     transition: 250ms all ease-in-out;
   }
 
@@ -45,12 +42,11 @@
 }
 
 .verse {
-   background: rgba(51,51,51,0.75);
   line-height: 1.75em;
   padding: 1em;
   padding-left: 2em;
   margin-top: 1em;
-  border-radius: 5px;
+  font-style: italic;
 }
 
 p {
@@ -60,35 +56,24 @@ p {
   font-weight: 300;
 }
 div ul li div {
-  border-radius: 5px;
-  border-left: 2px solid $primary;
-  box-shadow: 0px 0px 50px 0px #000;
   padding: 2em;
   margin-bottom: 3em;
-  background: #222;
-  color: $grey;
+  color: #aaa;
   .tag__link {
-    background: $primary;
-    color: #000;
+    color: $black;
     &:hover {
-    color: #000;
-    background: $primary;
+    color: $black;
     text-decoration: underline;
     }
   }
 }
 /*Testing...*/
 .post__title {
-  font-weight: 700;
+  font-weight: 400;
   margin-top: -2em;
-  margin-left: -.5em;
-  box-shadow: 0px 0px 50px 0px #111;
   padding: .5em;
-  border-left: 2px solid $primary;
-  border-radius: 5px;
-   background: rgba(51,51,51,0.7);
-   backdrop-filter: blur(4px);
-   -webkit-backdrop-filter: blur(4px);
+  border-bottom: 1px solid $grey;
+  font-style: italic;
   &:hover {
     text-decoration: underline;
   }
@@ -114,21 +99,15 @@ div ul li div {
   .post__header {
     position: relative;
     top: -1.25em;
-    margin-left: 2em;
+  border-bottom: 1px solid $grey;
+  font-style: italic;
     #post__title {
-   color: $primary;
-  box-shadow: 0px 0px 50px 0px #111;
-   background: rgba(51,51,51,0.7);
-   backdrop-filter: blur(5px);
-   -webkit-backdrop-filter: blur(5px);
+   color: $black;
    padding: .5em;
-   border-left: 2px solid $primary;
-   border-radius: 5px;
-   margin-right: 1em;
+   font-weight: 400;
   @media screen and (max-width: $medium - 1) {
-   margin-left: -.5em;
-   margin-right: .5em;
     font-size: 1.75em;
+   padding: .25em;
       }
     }
   }
@@ -136,9 +115,8 @@ div ul li div {
     display: block;
     position: relative;
     margin-top: -3em;
-    background: $primary;
-    color: #000;
-    box-shadow: 0px 0px 20px 0px #111;
+    background: $white;
+    color: $black;
     &::before {
       content: "#";
     }
@@ -146,28 +124,25 @@ div ul li div {
     text-decoration: underline;
     }
     @media screen and (min-width: $medium) {
-      background: #222;
-      color: $grey;
-      border-radius: 5px;
-      border-left: 2px solid $primary;
+      color: $black;
     }
   }
   }
   .post__content {
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 300;
+    }
     margin-top: -2.5em;
-    padding: 1em 1em 1em 1.25em;
+    padding: 1em 1em 1em .75em;
     @media screen and (min-width: $medium) {
-    padding: 2em;
+    padding: 1em 1em 1em 1em;
     }
 }
 }
 
 .post__main {
-  border-radius: 5px;
-  border-left: 2px solid $primary;
-  box-shadow: 0px 0px 50px 0px #000;
   padding-bottom: 1em;
-  background: #222;
+  border-bottom: 1px solid $grey;
 }
 .flex-wrapper {
   padding: 0;
@@ -189,4 +164,8 @@ main {
 
 .post-list__container .post-list .post:last-child {
     padding-bottom: 2em;
+}
+
+.splash h1 {
+  font-style: italic;
 }
