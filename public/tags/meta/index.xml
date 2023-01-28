@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>meta on Sam&#39;s Site</title>
+    <link>https://samduane.com/tags/meta/</link>
+    <description>Recent content in meta on Sam&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Jan 2023 22:32:37 -0500</lastBuildDate><atom:link href="https://samduane.com/tags/meta/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My first post</title>
+      <link>https://samduane.com/posts/my-first-post/</link>
+      <pubDate>Thu, 05 Jan 2023 22:32:37 -0500</pubDate>
+      
+      <guid>https://samduane.com/posts/my-first-post/</guid>
+      <description>An introductory post that explains the purpose of this site.</description>
+    </item>
+    
+  </channel>
+</rss>

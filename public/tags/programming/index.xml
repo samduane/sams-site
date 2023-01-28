@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming on Sam&#39;s Site</title>
+    <link>https://samduane.com/tags/programming/</link>
+    <description>Recent content in programming on Sam&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Jan 2023 01:36:07 -0500</lastBuildDate><atom:link href="https://samduane.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Javascript: Bash for the Web</title>
+      <link>https://samduane.com/posts/bash-for-the-web/</link>
+      <pubDate>Fri, 06 Jan 2023 01:36:07 -0500</pubDate>
+      
+      <guid>https://samduane.com/posts/bash-for-the-web/</guid>
+      <description>The world runs on the internet. From phones to servers, fridges to thermometers. The internet has invaded every
+part of our lives. The backbone of the world wide web that keeps everything running is&amp;hellip; Javascript. One of - if not
+&lt;strong&gt;the&lt;/strong&gt; - worst languages to be used in production systems. Why?</description>
+    </item>
+    
+  </channel>
+</rss>

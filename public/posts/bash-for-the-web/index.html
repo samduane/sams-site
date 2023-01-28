@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>Javascript: Bash for the Web | Sam&#39;s Site</title>
+
+  <meta charset="UTF-8">
+  <meta name="language" content="en">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+
+
+  
+  
+    
+ 
+  
+  
+  
+  
+  
+  
+    
+    <link type="text/css" rel="stylesheet" href="/css/post.min.53aa722431491c06ab83c8880ceae0d2c9ed5388b1fd31679b796f2eddec6e98.css" integrity="sha256-U6pyJDFJHAarg8iIDOrg0sntU4ix/TFnm3lvLt3sbpg="/>
+  
+    
+    <link type="text/css" rel="stylesheet" href="/css/custom.min.9da818561b79e3534ad1f5fe6405f8a6a180e64438862e86c6f2f4a57b6ad07d.css" integrity="sha256-nagYVht541NK0fX&#43;ZAX4pqGA5kQ4hi6GxvL0pXtq0H0="/>
+  
+  
+   
+   
+    
+
+<script type="application/ld+json">
+  
+    { 
+      "@context": "http://schema.org", 
+      "@type": "WebSite", 
+      "url": "https:\/\/samduane.com\/posts\/bash-for-the-web\/",
+      "name": "Javascript: Bash for the Web",
+      "author": {
+        "@type": "Person",
+        "name": ""
+      },
+      "description": ""
+    }
+  
+  </script>
+
+
+</head>
+
+<body>
+ <div class="burger__container">
+ <input aria-controls="navigation" aria-label="Menu" id="burger" type="checkbox" />
+
+<label class="burger" for="burger">
+    <div class="burger__meat burger__meat--1"></div>
+    <div class="burger__meat burger__meat--2"></div>
+    <div class="burger__meat burger__meat--3"></div>
+</label>
+<header class="post__header" id="burger__header">Javascript: Bash for the Web</header>
+ 
+
+  <nav class="nav" id="navigation">
+  <ul class="nav__list">
+    
+    
+      <li>
+        <a  href="/">about</a>
+      </li>
+    
+      <li>
+        <a  href="https://photos.samduane.com">photos</a>
+      </li>
+    
+      <li>
+        <a  class="active"
+         href="/posts">posts</a>
+      </li>
+    
+  </ul>
+</nav>
+
+</div>
+
+  <main>
+    
+    
+
+    <div class="flex-wrapper">
+      <div class="post__container">
+        <div class="post">
+          <div class="post__main">
+          <header class="post__header">
+            <h1 id="post__title">Javascript: Bash for the Web</h1>
+          </header>
+          <article class="post__content">
+              <p>  I could start by trashing on JS. I could go on about all of its obvious mistakes, inexplicable oddities, and
+outright asinine design decisions. I won&rsquo;t. There are as many blogs that cover all of that as there are frameworks that
+attempt to fix those problems. Instead, I want to explain why I think things came to be this way, and how we should view
+JS going forward.</p>
+<p>  I&rsquo;m no historian. I started coding about 5 years ago. To say I have some unique first hand experience with the growth of
+the web would be a lie. That said, there are some basic facts we can use to piece together the digital crime scene we are
+currently observing. Time to put on our fedoras, detective!</p>
+<h2 id="in-the-beginning-dot-dot-dot">In the beginning&hellip;</h2>
+<p>  It&rsquo;s always best to start at the genesis of the event. When we look at what the web was back in the &ldquo;good ol&rsquo; days&rdquo;, it
+was <em>quite different</em>. With no standards and a mess of technologies, the web was&hellip; <em>special</em>. I say this both in the
+literal and sarcastic sense. It really was an amazing new technology. Yet, it was also a dumpster fire. Different
+browsers had different standards. HTML was in its infancy. Java tried to enter with applets. PHP was actually <strong>good</strong> compared
+to many of the alternatives. While this sounds terrible(and was), it wasn&rsquo;t nearly as bad as the situation we have
+today. This is because of one major difference: in the beginning, web sites were just that - websites. Not apps with
+thousands, even millions of users.</p>
+<p>  Back in the day, a website was a document. You could put up stylized text on a screen. Wow! That was it. No fancy
+buttons or animations. No full-stack systems to create your game-changing startup app that will <em>revolutionize</em> the
+industry. Just some pages. It was more like a PDF than a desktop app. And that was good! The web had a specific purpose,
+and had HTML and CSS to do the job. Yay!</p>
+<h3 id="more">More!!!</h3>
+<p>  As the web got more popular, it grew. As it grew, people did more with their sites. People began to hunger for more!
+While HTML and CSS developers strived to please these bearded fanatics, they were limited in their functionality. This is where scripting languages
+joined the conversation. With the ability to create personal functions that could extend their sites, these simple
+languages were like drops of dew from heaven itself. People could do amazing things! Adding buttons and dynamic menus
+with fun animations. It was fun! This is the birth of Javascript.</p>
+<p>  As the story goes, JS was born in 10 days at a coding competition. A fun challenge to implement an easy to use scripting
+language. While it was originally planned to be Scheme in the browser, a few requests and design decisions would result
+in the seedling that would grow into the language that we know and <del>love</del> hate today!</p>
+<h2 id="identity-crisis">Identity crisis</h2>
+<p>  It wasn&rsquo;t designed to create reusable code across platforms like Java. It wasn&rsquo;t designed to support thousands of
+asynchronous calls that needed to be up 24/7 like Erlang. It wasn&rsquo;t designed to be the de-facto tool used by the most
+successful operating system like C. It was a scripting language, designed for fun. It let people do quirky things with
+their personal sites. For personal sites, it was good!</p>
+<h3 id="for-worse">For <del>better and</del> worse</h3>
+<p>  However, things continued to change. The web continued to grow. Netscape died, and Internet Explorer reigned supreme.
+Later, Chrome would rise from the ashes and conquer the demonic forces at Microsoft, to usher us in a new age of virtual
+glory! Remember when Google <em>wasn&rsquo;t</em> evil? Good times.</p>
+<p>  Anyways, the web became more significant in the average Joe&rsquo;s life. It became an essential part of the everyday.
+Companies started to realize that they could take advantage. Advertising, cookies, and more! Oh my! The internet
+was no longer the home for personal blogs with stroke inducing rainbow animations. Now it was time for the
+corporate world to take charge!</p>
+<p>  With companies putting more effort into their digital presence, the purpose of websites changed. They were less
+home pages and more web apps. More needed to be done, and Javascript was the quickest option to get up and running.
+Things continued to grow, and now JS had to grow with it. Javascript was now married to the browser.</p>
+<p>  Now in the current day, JS has grown from a goofy little scripting language into an absolute abomination of a
+production system. Framework after framework promises to resolve the issues baked into the core of JS, all failing to
+truly eradicate the inadequacies.</p>
+<h2 id="building-on-bash">Building on Bash</h2>
+<p>  While it&rsquo;s easy to simply dismiss Javascript as a &ldquo;bad language&rdquo;, I think the true issue is the view of the
+developer. Having reflected on the origins of JS, it&rsquo;s clear that it was <em>never</em> intended to be used for app
+development. It was <em>never</em> designed for large scale use. Like Bash, it was designed as a simple language for quick
+scripts on a personal system. Both have their quirks. Both are good enough for what they were designed to do.</p>
+<p>  However, there&rsquo;s a difference. Unlike Bash, which had C to rely on for serious development in the UNIX
+world, JS has nobody. The browser landscape has no C. Rust is starting to enter the picture. WASM looks to
+provide better support from more refined languages. Still, there is no definitive programming language for the internet.</p>
+<p>  The post-apocalyptic wasteland of JS now makes sense. The problem is not that JS is used for the web. No, the
+problem is that it&rsquo;s the <strong>only</strong> language for the web. We have built an ecosystem of apps on the web equivalent of Bash. Imagine
+if our operating systems were designed without C? Everything built purely in shell scripts. That&rsquo;s what we&rsquo;ve done with the
+internet. Frankly, I&rsquo;m impressed things aren&rsquo;t <strong>worse</strong>!</p>
+<h2 id="moving-forward">Moving forward</h2>
+<p>  With a better understanding of the current predicament, it&rsquo;s clear that change is needed. WASM is a great step in
+the right direction. Being able to develop professional applications with proven languages on the web is exciting to see
+and brings hope for the future of the internet. Hopefully, we can see browsers better integrate with other languages,
+and have a C for the web. Maybe that will be Rust, or Go, or Elixir. All purpose built for the demands of the web. Who knows!
+Regardless, it seems best to begin transitioning to these systems for more intensive progams.</p>
+<p>  As for Javascript, it will continue to be used. Hopefully, with time its prominence will begin to fade, and it
+will be restored to its rightful place - quick and easy scripts for personal sites. Frameworks and hackjobs will be
+used less and less. It will be championed by a new generation of bearded fanatics, a gateway drug into the world wide web.</p>
+
+              
+          </article>
+          </div>
+          
+
+<ul class="tags__list">
+    
+    <li class="tag__item">
+        <a class="tag__link" href="https://samduane.com/tags/programming/">programming</a>
+    </li></ul>
+
+ <div class="pagination">
+  
+    <a class="pagination__item" href="https://samduane.com/posts/terms-and-trojan-horses/">
+        <span class="pagination__label">Previous Post</span>
+        <span class="pagination__title">Terminology and Trojan Horses</span>
+    </a>
+  
+
+  
+    <a class="pagination__item" href="https://samduane.com/posts/god-as-our-rock/">
+      <span class="pagination__label">Next Post</span>
+      <span class="pagination__title" >God as our Rock</span>
+    </a>
+  
+</div>
+
+          <footer class="post__footer">
+            
+            <p></p>
+          </footer>
+          </div>
+      </div>
+      
+    </div>
+    
+
+  </main>
+
+   
+
+</body>
+
+</html>
