@@ -9,10 +9,11 @@
   text-decoration: none;
   padding: 0.2em 0.4em;
   margin-bottom: .5em;
-  color: $grey;
+  color: $darkGrey;
   font-size: 0.8rem;
   &:hover {
     text-decoration: underline;
+    color: $black;
   }
 }
 .tag__header {
@@ -58,9 +59,9 @@ p {
 div ul li div {
   padding: 2em;
   margin-bottom: 3em;
-  color: #aaa;
+  color: $darkGrey;
   .tag__link {
-    color: $black;
+    color: $darkGrey;
     &:hover {
     color: $black;
     text-decoration: underline;

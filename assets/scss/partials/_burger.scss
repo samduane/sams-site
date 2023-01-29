@@ -12,7 +12,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  background: rgba(17,17,17,0.5);
+  background: rgba(170,170,170,0.5);
   z-index: 2;
 
   @media screen and (min-width: $medium) {
@@ -44,7 +44,7 @@
   position: absolute;
   width: $meatWidth;
   height: $meatHeight;
-  background: $black;
+  background: $darkGrey;
   top: calc(50% - #{$meatHeight} / 2);
   left: calc(50% - #{$meatWidth} / 2);
   transition: all 150ms ease-in;
@@ -88,7 +88,7 @@
 #burger__header {
   z-index: 2;
   margin-right: auto;
-  color: $grey;
+  color: $darkGrey;
   @media screen and (min-width: $medium) {
   display:none;
   }

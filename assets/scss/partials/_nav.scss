@@ -68,7 +68,7 @@
   }
 
   a {
-    color: $grey;
+    color: $darkGrey;
     text-decoration: none;
     font-size: 2em;
 
@@ -115,7 +115,7 @@
 
 @keyframes fade__bg {
   from {background: transparent;}
-  to {background: rgba(17,17,17,0.7);}
+  to {background: rgba(170,170,170,0.7);}
 }
 
 @keyframes fade__list {
