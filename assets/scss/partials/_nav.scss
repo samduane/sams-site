@@ -7,6 +7,7 @@
 .nav {
   position: fixed;
   background:  transparent;
+  background: rgba(238,238,238,0.7);
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
   bottom: 0;
@@ -83,8 +84,9 @@
 
     &.active {
         color: $black;
+        font-style: italic;
         &:hover {
-            text-decoration: none;
+            text-decoration: underline;
         }
     }
   }
@@ -115,7 +117,7 @@
 
 @keyframes fade__bg {
   from {background: transparent;}
-  to {background: rgba(170,170,170,0.7);}
+  to {background: rgba(238,238,238,0.7);}
 }
 
 @keyframes fade__list {
